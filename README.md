@@ -1,16 +1,16 @@
 # Hotel Management System
 
-# ReactJS, SpringBoot, MongoDB with Stripe-Checkout Payment Gateway
-# Customer can create an account
-# Customer can check room availability according to the dates
-# Customer can select services
-# Customer can make payment 
-# Customer can view profile details and reservation details
+- ReactJS, SpringBoot, MongoDB with Stripe-Checkout Payment Gateway
+##Customer can create an account
+##Customer can check room availability according to the dates
+##Customer can select services
+##Customer can make payment 
+##Customer can view profile details and reservation details
 
 
-# Admin can create , delete and update  Rooms and services
-# Admin can view reservations
-# Admin can generate reports
+## Admin can create , delete and update  Rooms and services
+## Admin can view reservations
+## Admin can generate reports
 
 
 
