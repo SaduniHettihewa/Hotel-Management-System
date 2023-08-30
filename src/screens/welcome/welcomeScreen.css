@@ -1,0 +1,75 @@
+
+  .welcome-page {
+    background-image: url('../../assets/suhada.jpg');
+    /* background-color: cadetblue; */
+    background-size: cover;
+    /* background-position: center; */
+    height: 100vh;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+  }
+  
+  .welcome-content {
+    /* text-align:left; */
+    align-items: center;
+    align-content: center;
+  }
+  
+  .title {
+    position: relative;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: beige;
+  }
+  
+  .title-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .title-box2 {
+    background-color: rgba(235, 221, 221, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+  } 
+
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn-welcome {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 40px 30px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .navbar {
+  background-color: transparent;
+}
+
+.btn-bold {
+  font-weight: bold;
+}
+
+.btn-bold:hover {
+  color: black;
+}
+
+
+.title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  height: 80%;
+  z-index: -1;
+}
+

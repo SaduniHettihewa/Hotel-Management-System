@@ -1,0 +1,75 @@
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+}
+
+.header-image {
+  background-image: url('../../../assets/home_header.jpg');
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.search-container {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  right: 10%;
+  padding: 10px;
+  transform: translate(-20%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-picker-container {
+  margin: 10px;
+}
+
+.date-picker {
+  width: 100px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.count-container {
+  margin: 10px;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.check-availability-button {
+  background-color: rgb(35, 146, 219);
+  color: white;
+  height: 40px;
+  width: 140px;
+  border-radius: '20px';
+  border-color: aliceblue;
+
+  /* Add any additional styling as needed */
+}
+
+.setDates{
+  background-color: rgb(12, 194, 133);
+  color: white;
+  height: 40px;
+  width: 140px;
+  border-radius: '20px';
+  border-color: aliceblue;
+}
+.setDatesContiner{
+  padding-left: 20px;
+  
+}

@@ -1,0 +1,74 @@
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-top: 200px;
+    
+  }
+  
+  .profile-details,
+  .booking-details {
+    width: 400px;
+    height: 300px;
+    padding: 80px;
+    border: 2px solid #c6e2e9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-details {
+    background-color: #9df0f3;
+  }
+  
+  .booking-details {
+    background-color: #9df0f3;
+  }
+  
+  .profile-details h2,
+  .booking-details h2 {
+    margin-top: 0;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-details p,
+  .booking-details p {
+    color: #666;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .fa-user,
+  .fa-envelope,
+  .fa-phone,
+  .fa-calendar,
+  .fa-calendar-alt,
+  .fa-clock {
+    margin-right: 10px;
+  }
+  
+  /* Add border to the table */
+  .booking-details table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  .booking-details th,
+  .booking-details td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .booking-details th {
+    background-color: #f2f2f2;
+  }
+  
